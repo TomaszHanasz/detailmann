@@ -1,0 +1,9 @@
+.detailing-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 80vh;
+  margin: 0 auto;
+  text-align: start;
+}
