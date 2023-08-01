@@ -8,7 +8,7 @@ const NavBar = () => {
       <ul className="navbar__options">
         <li>Cennik</li>
         <li>Usługi</li>
-        <img src={logo} className="navbar__logo " />
+        <img src={logo} className="navbar__logo" alt="detailmann logo" />
         <li>O nas</li>
         <li>Kontakt</li>
       </ul>

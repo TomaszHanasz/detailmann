@@ -14,7 +14,7 @@ const OfferBlock = () => {
       <div className="offer-block__content">
         <div className="offer-block">
           <div className="offer-block__overlay"></div>
-          <img src={blokOne} className="offer-block__image" />
+          <img src={blokOne} className="offer-block__image" alt="wygoda" />
           <div className="offer-block__text">
             <h3>Wygoda</h3>
             <br />
@@ -26,9 +26,13 @@ const OfferBlock = () => {
         </div>
         <div className="offer-block">
           <div className="offer-block__overlay"></div>
-          <img src={blokTwo} className="offer-block__image" />
+          <img
+            src={blokTwo}
+            className="offer-block__image"
+            alt="oszczędność czasu"
+          />
           <div className="offer-block__text">
-            <h3>Zaoszczędź czas</h3>
+            <h3>Oszczędność czasu</h3>
             <br />
             <p>
               Niezależnie od tego, czy jesteś w domu, czy w ulubionym sklepie,
@@ -38,9 +42,13 @@ const OfferBlock = () => {
         </div>
         <div className="offer-block">
           <div className="offer-block__overlay"></div>
-          <img src={blokThree} className="offer-block__image" />
+          <img
+            src={blokThree}
+            className="offer-block__image"
+            alt="oszczędność pieniędzy"
+          />
           <div className="offer-block__text">
-            <h3>Zaoszczędź pieniądze</h3>
+            <h3>Oszczędność pieniędzy</h3>
             <br />
             <p>
               Poświęcając jak najmniej jakości, znaleźliśmy sposoby na
@@ -50,7 +58,7 @@ const OfferBlock = () => {
         </div>
         <div className="offer-block">
           <div className="offer-block__overlay"></div>
-          <img src={blokFour} className="offer-block__image" />
+          <img src={blokFour} className="offer-block__image" alt="jakość" />
           <div className="offer-block__text">
             <h3>Jakość</h3>
             <br />
