@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   width: 60%;
-  height: 800px;
-  margin: 0 auto;
+  height: fit-content;
+  margin: 60px auto;
   text-align: start;
 }
 
@@ -30,6 +30,11 @@
 @media screen and (max-width: 550px) {
   .detailing-info {
     height: 1000px;
-    margin: 40px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .detailing-info {
+    height: 1150px;
   }
 }

@@ -4,6 +4,7 @@
   position: fixed;
   height: 100px;
   z-index: 1;
+  border-bottom: 1px solid white;
 }
 
 .navbar__logo {
@@ -17,4 +18,64 @@
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
+}
+
+.navbar-drawer__button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.3rem;
+  color: white;
+  background-color: black;
+  border: rgb(236, 144, 4) 2px solid;
+  border-radius: 5px;
+}
+
+.navbar-drawer__options {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  border: 1px solid rgb(236, 144, 4);
+  border-radius: 5px;
+  width: 60%;
+  height: fit-content;
+  position: absolute;
+  right: 20px;
+  top: 82px;
+  list-style: none;
+}
+
+.navbar-drawer__options li {
+  border: 1px solid rgb(236, 144, 4);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar-drawer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar__options li {
+    display: none;
+  }
+
+  .navbar__options {
+    justify-content: flex-start;
+  }
+
+  .navbar__logo {
+    width: 250px;
+  }
+
+  .navbar {
+    display: flex;
+  }
 }
