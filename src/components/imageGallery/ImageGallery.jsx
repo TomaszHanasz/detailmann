@@ -4,6 +4,7 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { itemData } from "../../data/imagesGallery";
 import Box from "@mui/material/Box";
+import { Fade } from "react-awesome-reveal";
 import "./imageGallery.style.css";
 
 export default function ImageGallery() {
@@ -31,23 +32,30 @@ export default function ImageGallery() {
           />
         </div>
       )}
-      <Box
-        sx={{ width: 500, height: 650, overflowY: "scroll", margin: "0 auto" }}
-        className="gallery-container"
-      >
-        <ImageList variant="masonry" cols={3} gap={8} className="img-gallery">
-          {itemData.map((item) => (
-            <ImageListItem key={item.img}>
-              <img
-                src={`${item.img}?w=248&fit=crop&auto=format`}
-                alt={item.title}
-                loading="lazy"
-                onClick={() => onClickOpenModal(item)}
-              />
-            </ImageListItem>
-          ))}
-        </ImageList>
-      </Box>
+      <Fade>
+        <Box
+          sx={{
+            width: 500,
+            height: 650,
+            overflowY: "scroll",
+            margin: "0 auto",
+          }}
+          className="gallery-container"
+        >
+          <ImageList variant="masonry" cols={3} gap={8} className="img-gallery">
+            {itemData.map((item) => (
+              <ImageListItem key={item.img}>
+                <img
+                  src={`${item.img}?w=248&fit=crop&auto=format`}
+                  alt={item.title}
+                  loading="lazy"
+                  onClick={() => onClickOpenModal(item)}
+                />
+              </ImageListItem>
+            ))}
+          </ImageList>
+        </Box>
+      </Fade>
     </div>
   );
 }
