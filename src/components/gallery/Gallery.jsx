@@ -44,31 +44,31 @@ const Gallery = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={image1} alt="zdjęcie" />
+            <img className="swiper__img" src={image1} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image2} alt="zdjęcie" />
+            <img className="swiper__img" src={image2} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image6} alt="zdjęcie" />
+            <img className="swiper__img" src={image6} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image4} alt="zdjęcie" />
+            <img className="swiper__img" src={image4} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image5} alt="zdjęcie" />
+            <img className="swiper__img" src={image5} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image3} alt="zdjęcie" />
+            <img className="swiper__img" src={image3} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image7} alt="zdjęcie" />
+            <img className="swiper__img" src={image7} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image8} alt="zdjęcie" />
+            <img className="swiper__img" src={image8} alt="zdjęcie" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={image9} alt="zdjęcie" />
+            <img className="swiper__img" src={image9} alt="zdjęcie" />
           </SwiperSlide>
         </Swiper>
       </Fade>

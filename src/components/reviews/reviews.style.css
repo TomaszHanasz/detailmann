@@ -1,0 +1,23 @@
+.reviewsSwiper {
+  width: 50%;
+  height: fit-content;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 1250px) {
+  .reviewsSwiper {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .reviewsSwiper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .swiper__review {
+    width: 100%;
+  }
+}

@@ -13,7 +13,7 @@ const Main = () => {
         <h1>
           Detail<span>Mann</span>
         </h1>
-        <p>Twój samochód, nasza pasja.</p>
+        <h3>Twój samochód, nasza pasja.</h3>
         <div className="main__social-icons">
           <div>
             <img src={facebook} alt="facebook link" />

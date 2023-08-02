@@ -23,6 +23,10 @@
   color: rgb(255, 255, 255);
 }
 
+.main__content h1 {
+  font-size: 3rem;
+}
+
 .main__overlay {
   position: absolute;
   top: 70px;

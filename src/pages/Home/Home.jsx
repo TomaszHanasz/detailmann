@@ -6,6 +6,7 @@ import WhyDetailing from "../../components/whyDetailing/WhyDetailing";
 import Footer from "../../components/footer/Footer";
 import Gallery from "../../components/gallery/Gallery";
 import ImageGallery from "../../components/imageGallery/ImageGallery";
+import Reviews from "../../components/reviews/Reviews";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <NavBar />
       <Main />
       <OfferBlock />
+      <Reviews />
       <ImageGallery />
       <WhyDetailing />
       <Gallery />
