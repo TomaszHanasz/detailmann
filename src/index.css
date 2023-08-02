@@ -9,3 +9,15 @@
 html {
   font-family: "Poppins", sans-serif;
 }
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(231, 111, 1);
+}

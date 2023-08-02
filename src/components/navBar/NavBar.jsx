@@ -20,7 +20,7 @@ const NavBar = () => {
       </ul>
       <div className="navbar-drawer">
         <button className="navbar-drawer__button" onClick={onClickOpenMenu}>
-          Menu
+          ≡
         </button>
         {openMenu && (
           <ul className="navbar-drawer__options">

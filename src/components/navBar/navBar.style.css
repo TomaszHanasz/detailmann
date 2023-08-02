@@ -26,10 +26,10 @@
   top: 20px;
   height: 4rem;
   width: 4rem;
-  font-size: 1.3rem;
+  font-size: 3rem;
   color: white;
   background-color: black;
-  border: rgb(236, 144, 4) 2px solid;
+  border: rgb(231, 111, 1) 2px solid;
   border-radius: 5px;
 }
 
@@ -38,7 +38,7 @@
   flex-direction: column;
   color: white;
   background-color: black;
-  border: 1px solid rgb(236, 144, 4);
+  border: 1px solid rgb(231, 111, 1);
   border-radius: 5px;
   width: 60%;
   height: fit-content;
@@ -49,7 +49,7 @@
 }
 
 .navbar-drawer__options li {
-  border: 1px solid rgb(236, 144, 4);
+  border: 1px solid rgb(231, 111, 1);
   height: 4rem;
   display: flex;
   align-items: center;
