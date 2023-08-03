@@ -31,9 +31,9 @@ const Description = () => {
           blokiem.
         </p>
         <div className="description__images">
-          <img src={image2} />
-          <img src={image17} />
-          <img src={image20} />
+          <img src={image2} alt="nasza praca" />
+          <img src={image17} alt="nasza praca" />
+          <img src={image20} alt="nasza praca" />
         </div>
       </div>
     </Fade>
