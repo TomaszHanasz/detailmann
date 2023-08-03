@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "./../../assets/detailmann_logo_300dpi_3.png";
+import { Link } from "react-router-dom";
 import "./navBar.style.css";
 
 const NavBar = () => {
@@ -12,11 +13,19 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <ul className="navbar__options">
-        <li>Cennik</li>
-        <li>Usługi</li>
-        <img src={logo} className="navbar__logo" alt="detailmann logo" />
+        <Link to="/cennik">
+          <li>Cennik</li>
+        </Link>
+        <Link to="/uslugi">
+          <li>Usługi</li>
+        </Link>
+        <Link to="/">
+          <img src={logo} className="navbar__logo" alt="detailmann logo" />
+        </Link>
         <li>O nas</li>
-        <li>Kontakt</li>
+        <Link to="/contact">
+          <li>Kontakt</li>
+        </Link>
       </ul>
       <div className="navbar-drawer">
         <button className="navbar-drawer__button" onClick={onClickOpenMenu}>
@@ -24,10 +33,16 @@ const NavBar = () => {
         </button>
         {openMenu && (
           <ul className="navbar-drawer__options">
-            <li>Cennik</li>
-            <li>Usługi</li>
+            <Link to="/cennik">
+              <li>Cennik</li>
+            </Link>
+            <Link to="/uslugi">
+              <li>Usługi</li>
+            </Link>
             <li>O nas</li>
-            <li>Kontakt</li>
+            <Link to="/contact">
+              <li>Kontakt</li>
+            </Link>
           </ul>
         )}
       </div>

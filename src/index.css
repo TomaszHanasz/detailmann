@@ -11,6 +11,15 @@ html {
   text-wrap: balance;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(231, 111, 1);
+}
+
 *::-webkit-scrollbar {
   width: 16px;
 }

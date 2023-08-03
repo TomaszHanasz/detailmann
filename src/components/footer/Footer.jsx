@@ -9,8 +9,20 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__social-icons">
-        <img src={facebook} alt="facebook link" />
-        <img src={instagram} alt="instagram link" />
+        <a
+          href="https://www.facebook.com/profile.php?id=100092207490948"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={facebook} alt="facebook link" />
+        </a>
+        <a
+          href="https://www.instagram.com/detail_mann/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR1Y3NUJ8GGLNc2Cx3ieel0s48znO_05xsU76ubIJ_KXrD6t6KiqPMAUN7c"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={instagram} alt="instagram link" />
+        </a>
       </div>
       <h2>
         Detail<span>Mann</span>
