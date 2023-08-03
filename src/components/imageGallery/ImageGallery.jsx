@@ -38,7 +38,7 @@ export default function ImageGallery() {
             width: 500,
             height: 650,
             overflowY: "scroll",
-            margin: "40 auto",
+            margin: "0 auto",
           }}
           className="gallery-container"
         >

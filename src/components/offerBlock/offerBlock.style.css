@@ -1,12 +1,10 @@
 .offer-block__content {
   display: flex;
-  background-color: white;
 }
 
 .offer-block__title {
   height: 200px;
   display: flex;
-  background-color: white;
   text-decoration: underline;
   justify-content: center;
   align-items: center;

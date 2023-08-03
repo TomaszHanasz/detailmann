@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 import "./reviews.style.css";
 
 // import required modules
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 const Reviews = () => {
   return (
@@ -30,8 +30,7 @@ const Reviews = () => {
             delay: 4000,
             disableOnInteraction: false,
           }}
-          navigation={true}
-          modules={[Pagination, Navigation, Autoplay]}
+          modules={[Pagination, Autoplay]}
           className="reviewsSwiper"
         >
           <SwiperSlide>
