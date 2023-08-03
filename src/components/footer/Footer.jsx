@@ -1,4 +1,6 @@
 import React from "react";
+import facebook from "./../../assets/facebook-svgrepo-com.svg";
+import instagram from "./../../assets/instagram-1-svgrepo-com.svg";
 import "./footer.style.css";
 
 const Footer = () => {
@@ -6,6 +8,10 @@ const Footer = () => {
 
   return (
     <div className="footer">
+      <div className="footer__social-icons">
+        <img src={facebook} alt="facebook link" />
+        <img src={instagram} alt="instagram link" />
+      </div>
       <h2>
         Detail<span>Mann</span>
       </h2>

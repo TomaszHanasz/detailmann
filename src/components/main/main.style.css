@@ -43,7 +43,7 @@
 
 .main__social-icons {
   position: absolute;
-  bottom: 70px;
+  bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@
 
 .main__contact-us__button {
   font-size: 1.5rem;
-  min-width: 160px;
+  min-width: 272px;
   height: 60px;
   color: #fff;
   padding: 5px 10px;
@@ -79,6 +79,12 @@
   right: 10px;
 }
 
+.main__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .main__contact-us__button:after {
   content: "\00BB";
   position: absolute;
@@ -92,4 +98,11 @@
 
 span {
   color: rgb(231, 111, 1);
+}
+
+@media screen and (max-width: 500px) {
+  .main__contact-us__button {
+    font-size: 1.2rem;
+    min-width: 200px;
+  }
 }

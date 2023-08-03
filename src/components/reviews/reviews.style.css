@@ -1,17 +1,42 @@
 .reviewsSwiper {
-  width: 40%;
+  width: 80%;
   height: fit-content;
   margin: 40px auto;
 }
 
-@media screen and (max-width: 1250px) {
+.reviews__title {
+  text-align: center;
+}
+
+.reviews__container {
+  width: 60%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 40px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 1300px) {
   .reviewsSwiper {
-    width: 75%;
+    width: 100%;
+  }
+
+  .reviews__container {
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .reviewsSwiper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reviews__container {
     width: 100%;
   }
 }

@@ -1,21 +1,21 @@
 .offer-block__content {
   display: flex;
+  padding-bottom: 40px;
 }
 
 .offer-block__title {
-  height: 200px;
+  height: 150px;
   display: flex;
-  text-decoration: underline;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
+  text-align: center;
 }
 
 .offer-block {
   display: flex;
   flex: 1;
   height: 475px;
-  margin-bottom: 100px;
   position: relative;
 }
 

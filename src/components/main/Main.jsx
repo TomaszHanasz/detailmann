@@ -19,9 +19,12 @@ const Main = () => {
             <img src={facebook} alt="facebook link" />
             <img src={instagram} alt="instagram link" />
           </div>
-          <button className="main__contact-us__button">
-            Skontaktuj się z nami
-          </button>
+          <div className="main__buttons">
+            <button className="main__contact-us__button">
+              Wyślij wiadomość
+            </button>
+            <button className="main__contact-us__button">Zadzwoń</button>
+          </div>
         </div>
       </div>
     </div>

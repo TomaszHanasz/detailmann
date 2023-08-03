@@ -7,16 +7,18 @@ import Footer from "../../components/footer/Footer";
 import Gallery from "../../components/gallery/Gallery";
 import ImageGallery from "../../components/imageGallery/ImageGallery";
 import Reviews from "../../components/reviews/Reviews";
+import Description from "../../components/description/Description";
 
 const Home = () => {
   return (
     <div>
       <NavBar />
       <Main />
+      <Description />
       <OfferBlock />
       <Reviews />
-      <ImageGallery />
-      <WhyDetailing />
+      {/* <ImageGallery /> */}
+      {/* <WhyDetailing /> */}
       <Gallery />
       <Footer />
     </div>
