@@ -10,13 +10,32 @@ const SendMessage = () => {
     message: "",
   });
   const [messageSent, setMessageSent] = useState(false);
+  const [error, setError] = useState("");
 
   const onChangeHandler = (e) => {
+    setError("");
     setMessage({ ...message, [e.target.name]: e.target.value });
   };
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
+
+    if (
+      message.name.trim() === "" ||
+      message.email.trim() === "" ||
+      message.phone.trim() === "" ||
+      message.message.trim() === ""
+    ) {
+      setError("Wypełnij wszystkie pola");
+      return;
+    }
+    setMessage({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+    onSentMessage();
   };
 
   const onSentMessage = () => {
@@ -26,6 +45,7 @@ const SendMessage = () => {
   return (
     <div className="send-message__container">
       <h2 className="send-message__title fancy">Wyślij nam wiadomość</h2>
+      {<h2 className="send-message__title message-sent">{error}</h2>}
       {messageSent && (
         <h2 className="send-message__title message-sent">
           Wiadomość wysłana. Postaramy się odpisać tak szybko jak to możliwe.
@@ -63,11 +83,7 @@ const SendMessage = () => {
           onChange={onChangeHandler}
         />
         <div className="send-message__button-group">
-          <button
-            type="submit"
-            className="send-message__button"
-            onClick={onSentMessage}
-          >
+          <button type="submit" className="send-message__button">
             Wyślij
           </button>
           <Link to="/">
