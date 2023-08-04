@@ -2,6 +2,7 @@ import React from "react";
 import videoBg from "./../../assets/hero2.mp4";
 import facebook from "./../../assets/facebook-svgrepo-com.svg";
 import instagram from "./../../assets/instagram-1-svgrepo-com.svg";
+import whatsapp from "../../assets/whatsapp-whats-app-svgrepo-com.svg";
 import { Link } from "react-router-dom";
 import "./main.style.css";
 
@@ -30,6 +31,13 @@ const Main = () => {
               rel="noreferrer"
             >
               <img src={instagram} alt="instagram link" />
+            </a>
+            <a
+              href="https://wa.me/48508597076"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={whatsapp} alt="whatsapp link" />
             </a>
           </div>
           <div className="main__buttons">

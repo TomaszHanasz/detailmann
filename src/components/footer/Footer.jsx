@@ -1,6 +1,7 @@
 import React from "react";
 import facebook from "./../../assets/facebook-svgrepo-com.svg";
 import instagram from "./../../assets/instagram-1-svgrepo-com.svg";
+import whatsapp from "../../assets/whatsapp-whats-app-svgrepo-com.svg";
 import "./footer.style.css";
 
 const Footer = () => {
@@ -22,6 +23,9 @@ const Footer = () => {
           rel="noreferrer"
         >
           <img src={instagram} alt="instagram link" />
+        </a>
+        <a href="https://wa.me/48508597076" target="_blank" rel="noreferrer">
+          <img src={whatsapp} alt="whatsapp link" />
         </a>
       </div>
       <h2>
