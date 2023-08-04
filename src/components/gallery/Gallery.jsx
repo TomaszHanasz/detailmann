@@ -2,12 +2,12 @@ import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
-  image1,
-  image2,
+  image53,
+  image54,
+  image48,
+  image58,
   image3,
-  image4,
   image5,
-  image6,
   image7,
   image8,
   image9,
@@ -50,16 +50,16 @@ const Gallery = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img className="swiper__img" src={image1} alt="zdjęcie" />
+              <img className="swiper__img" src={image53} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image2} alt="zdjęcie" />
+              <img className="swiper__img" src={image54} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image6} alt="zdjęcie" />
+              <img className="swiper__img" src={image58} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image4} alt="zdjęcie" />
+              <img className="swiper__img" src={image48} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
               <img className="swiper__img" src={image5} alt="zdjęcie" />
