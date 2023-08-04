@@ -20,7 +20,7 @@ const SendMessage = () => {
 
   return (
     <div className="send-message__container">
-      <h2 className="send-message__title">Wyślij nam wiadomość</h2>
+      <h2 className="send-message__title fancy">Wyślij nam wiadomość</h2>
       <form onSubmit={onSubmitHandler} className="send-message__form">
         <label>Imię</label>
         <input
