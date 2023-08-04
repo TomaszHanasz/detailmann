@@ -6,11 +6,11 @@ import {
   image54,
   image48,
   image58,
-  image3,
-  image5,
-  image7,
-  image8,
-  image9,
+  image95,
+  image97,
+  image71,
+  image35,
+  image29,
 } from "../../data/images";
 import { Fade } from "react-awesome-reveal";
 // Import Swiper styles
@@ -62,19 +62,19 @@ const Gallery = () => {
               <img className="swiper__img" src={image48} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image5} alt="zdjęcie" />
+              <img className="swiper__img" src={image95} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image3} alt="zdjęcie" />
+              <img className="swiper__img" src={image97} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image7} alt="zdjęcie" />
+              <img className="swiper__img" src={image71} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image8} alt="zdjęcie" />
+              <img className="swiper__img" src={image35} alt="zdjęcie" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="swiper__img" src={image9} alt="zdjęcie" />
+              <img className="swiper__img" src={image29} alt="zdjęcie" />
             </SwiperSlide>
           </Swiper>
         </div>

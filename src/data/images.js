@@ -84,6 +84,20 @@ import image83 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.20.58 PM (
 import image84 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.20.58 PM (8).jpeg";
 import image85 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.20.58 PM (9).jpeg";
 import image86 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.20.58 PM.jpeg";
+import image87 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.31 PM (1).jpeg";
+import image88 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.31 PM (2).jpeg";
+import image89 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.31 PM (3).jpeg";
+import image90 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.31 PM (4).jpeg";
+import image91 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.31 PM.jpeg";
+import image92 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (1).jpeg";
+import image93 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (2).jpeg";
+import image94 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (3).jpeg";
+import image95 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (4).jpeg";
+import image96 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (5).jpeg";
+import image97 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (6).jpeg";
+import image98 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (7).jpeg";
+import image99 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (8).jpeg";
+import image100 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM.jpeg";
 
 export {
   image1,
@@ -172,4 +186,18 @@ export {
   image84,
   image85,
   image86,
+  image100,
+  image87,
+  image88,
+  image89,
+  image90,
+  image91,
+  image92,
+  image93,
+  image94,
+  image95,
+  image96,
+  image97,
+  image98,
+  image99,
 };
