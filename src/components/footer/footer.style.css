@@ -1,7 +1,6 @@
 .footer {
-  position: relative;
   text-align: center;
-  height: 40vh;
+  height: fit-content;
   color: white;
   background-color: black;
   display: flex;
@@ -9,6 +8,7 @@
   align-items: center;
   justify-content: center;
   border-top: 1px solid white;
+  padding: 40px;
 }
 
 .footer__social-icons img {
