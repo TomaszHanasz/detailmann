@@ -29,6 +29,17 @@ import image28 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (
 import image29 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (12).jpeg";
 import image30 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (13).jpeg";
 import image31 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (14).jpeg";
+import image32 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (15).jpeg";
+import image33 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (2).jpeg";
+import image34 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (3).jpeg";
+import image35 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (4).jpeg";
+import image36 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (5).jpeg";
+import image37 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (6).jpeg";
+import image38 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (7).jpeg";
+import image39 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (8).jpeg";
+import image40 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM (9).jpeg";
+import image41 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.09 PM.jpeg";
+import image42 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.18.52 PM (1).jpeg";
 
 export {
   image1,
@@ -62,4 +73,15 @@ export {
   image29,
   image30,
   image31,
+  image32,
+  image33,
+  image34,
+  image35,
+  image36,
+  image37,
+  image38,
+  image39,
+  image40,
+  image41,
+  image42,
 };
