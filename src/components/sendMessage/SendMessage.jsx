@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./sendMessage.style.css";
 
 const SendMessage = () => {
@@ -8,6 +9,7 @@ const SendMessage = () => {
     phone: "",
     message: "",
   });
+  const [messageSent, setMessageSent] = useState(false);
 
   const onChangeHandler = (e) => {
     setMessage({ ...message, [e.target.name]: e.target.value });
@@ -15,12 +17,21 @@ const SendMessage = () => {
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    console.log(message);
+  };
+
+  const onSentMessage = () => {
+    setMessageSent(true);
   };
 
   return (
     <div className="send-message__container">
       <h2 className="send-message__title fancy">Wyślij nam wiadomość</h2>
+      {messageSent && (
+        <h2 className="send-message__title message-sent">
+          Wiadomość wysłana. Postaramy się odpisać tak szybko jak to możliwe.
+          Dziękujemy!
+        </h2>
+      )}
       <form onSubmit={onSubmitHandler} className="send-message__form">
         <label>Imię</label>
         <input
@@ -51,9 +62,18 @@ const SendMessage = () => {
           value={message.message}
           onChange={onChangeHandler}
         />
-        <button type="submit" className="send-message__button">
-          Wyślij
-        </button>
+        <div className="send-message__button-group">
+          <button
+            type="submit"
+            className="send-message__button"
+            onClick={onSentMessage}
+          >
+            Wyślij
+          </button>
+          <Link to="/">
+            <button className="send-message__button">Powrót</button>
+          </Link>
+        </div>
       </form>
     </div>
   );

@@ -4,10 +4,12 @@ import "./App.css";
 import CennikPage from "./pages/Cennik/CennikPage";
 import Uslugi from "./pages/Usługi/Uslugi";
 import Contact from "./pages/Contact/Contact";
+import ScrollToTop from "./utilities/scrollToTop";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cennik" element={<CennikPage />} />

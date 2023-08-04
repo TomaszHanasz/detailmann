@@ -1,5 +1,4 @@
 .send-message__form {
-  padding: 50px;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -11,7 +10,7 @@
   width: 60%;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin: 100px auto;
+  margin: 0px auto;
 }
 
 .send-message__message {
@@ -26,6 +25,7 @@
 
 .send-message__title {
   text-align: center;
+  margin-top: 80px;
 }
 
 .send-message__button {
@@ -48,6 +48,17 @@
   background-color: rgb(231, 111, 1);
 }
 
+.message-sent {
+  margin-bottom: 3rem;
+}
+
+.send-message__button-group {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1250px) {
   .send-message__container {
     width: 80%;
@@ -61,6 +72,10 @@
 
   .send-message__form {
     width: 90%;
+  }
+
+  .send-message__button-group {
+    width: 150px;
   }
 
   .send-message__button {
