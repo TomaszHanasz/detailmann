@@ -1,7 +1,7 @@
 import Home from "./pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Cennik from "./pages/Cennik/Cennik";
+import CennikPage from "./pages/Cennik/CennikPage";
 import Uslugi from "./pages/Usługi/Uslugi";
 import Contact from "./pages/Contact/Contact";
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/cennik" element={<Cennik />} />
+        <Route path="/cennik" element={<CennikPage />} />
         <Route path="/uslugi" element={<Uslugi />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
