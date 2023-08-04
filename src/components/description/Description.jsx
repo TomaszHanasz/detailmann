@@ -8,7 +8,7 @@ const Description = () => {
     <div className="description__bg">
       <Fade>
         <div className="description__container">
-          <h2 className="description__title">Czym się zajmujemy</h2>
+          <h2 className="description__title fancy">Czym się zajmujemy</h2>
           <br />
           <div className="description__text">
             <p>

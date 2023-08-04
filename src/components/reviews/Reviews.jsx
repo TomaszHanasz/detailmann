@@ -19,7 +19,7 @@ const Reviews = () => {
     <>
       <Fade>
         <div className="reviews__container">
-          <h2 className="reviews__title">Co piszą o nas nasi klienci</h2>
+          <h2 className="reviews__title fancy">Co piszą o nas nasi klienci</h2>
           <Swiper
             slidesPerView={1}
             spaceBetween={30}

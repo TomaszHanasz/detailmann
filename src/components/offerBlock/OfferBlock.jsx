@@ -8,9 +8,11 @@ import "./offerBlock.style.css";
 
 const OfferBlock = () => {
   return (
-    <div style={{ backgroundColor: "rgb(231, 111, 1)" }}>
+    <div>
       <Fade>
-        <h2 className="offer-block__title">Dlaczego powinieneś wybrać nas</h2>
+        <h2 className="offer-block__title fancy">
+          Dlaczego powinieneś wybrać nas
+        </h2>
       </Fade>
       <Fade cascade>
         <div className="offer-block__content">

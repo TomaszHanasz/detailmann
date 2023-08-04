@@ -28,7 +28,7 @@ const Gallery = () => {
     <>
       <Fade>
         <div className="gallery__container">
-          <h2 className="gallery__title">
+          <h2 className="gallery__title fancy">
             Świadczymy usługi na terenie Poznania i okolic 7 dni w tygodniu
           </h2>
           <br />
