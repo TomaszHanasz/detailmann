@@ -12,7 +12,7 @@ const Cennik = () => {
           <h2 className="cennik__title fancy">Pakiet Classic</h2>
           <div className="cennik__flex">
             <div>
-              <img src={cennikTwo} alt="zdjęcie" />
+              <img src={cennikOne} alt="zdjęcie" />
             </div>
             <div>
               <ul className="cennik__classic-prices">
@@ -55,7 +55,7 @@ const Cennik = () => {
               </ul>
             </div>
             <div>
-              <img src={cennikOne} alt="zdjęcie" />
+              <img src={cennikTwo} alt="zdjęcie" />
             </div>
           </div>
         </div>
