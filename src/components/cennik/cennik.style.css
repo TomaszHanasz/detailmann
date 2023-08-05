@@ -1,6 +1,7 @@
 .cennik__box {
   width: 60%;
   margin: 0 auto;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,6 +10,38 @@
 .cennik__img {
   margin: 100px auto 0 auto;
   width: 100%;
+}
+
+.cennik__title {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.cennik__classic-prices {
+  font-weight: 600;
+}
+
+.cennik__flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.cennik__flex img {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cennik__flex img:hover {
+  transform: translateY(-5px);
+}
+
+.cennik__list {
+  list-style: inside;
 }
 
 .cennik__button {
@@ -31,6 +64,17 @@
   background-color: rgb(231, 111, 1);
 }
 
+.cennik__pakiet__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cennik__classic-prices {
+  list-style: none;
+}
+
 @media screen and (max-width: 1250px) {
   .cennik__box {
     width: 80%;
@@ -40,5 +84,20 @@
 @media screen and (max-width: 900px) {
   .cennik__box {
     width: 100%;
+  }
+
+  .cennik__flex {
+    grid-template-columns: 60%;
+    justify-content: space-around;
+  }
+
+  .cennik__flex img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cennik__flex {
+    grid-template-columns: 90%;
   }
 }
