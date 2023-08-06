@@ -1,7 +1,9 @@
 import * as React from "react";
 import { useState } from "react";
-import { itemData } from "../../data/imagesGallery";
 import { carOne } from "../../data/carOne";
+import { carTwo } from "../../data/carTwo";
+import { carThree } from "../../data/carThree";
+import { carFour } from "../../data/carFour";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import "./imageGallery.style.css";
@@ -49,16 +51,28 @@ export default function ImageGallery() {
       <Fade>
         <h2 className="image-gallery__title fancy"> Galeria</h2>
         <GalleryElement
-          src={itemData}
-          key={itemData}
-          gallery={pictures}
-          title={itemData[0].title}
-        />
-        <GalleryElement
           src={carOne}
           key={carOne}
           gallery={pictures}
           title={carOne[0].title}
+        />
+        <GalleryElement
+          src={carTwo}
+          key={carTwo}
+          gallery={pictures}
+          title={carTwo[0].title}
+        />
+        <GalleryElement
+          src={carThree}
+          key={carThree}
+          gallery={pictures}
+          title={carThree[0].title}
+        />
+        <GalleryElement
+          src={carFour}
+          key={carFour}
+          gallery={pictures}
+          title={carFour[0].title}
         />
         <Link to="/">
           <button className="gallery__back-button">Powrót</button>
