@@ -69,7 +69,11 @@ const Cennik = () => {
             Całość usługi jest wyceniana indywidualnie zgodnie z sugestiami
             klienta.
           </h2>
-          <button className="cennik__button">Zadzwoń</button>
+          <button className="main__contact-us__button">
+            <a className="zadzwon" href="tel:48508597076">
+              Zadzwoń
+            </a>
+          </button>
           <Link to="/">
             <button className="cennik__button">Powrót</button>
           </Link>

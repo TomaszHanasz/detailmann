@@ -46,7 +46,11 @@ const Main = () => {
                 Wyślij wiadomość
               </button>
             </Link>
-            <button className="main__contact-us__button">Zadzwoń</button>
+            <button className="main__contact-us__button">
+              <a className="zadzwon" href="tel:48508597076">
+                Zadzwoń
+              </a>
+            </button>
           </div>
         </div>
       </div>

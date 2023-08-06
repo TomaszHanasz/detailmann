@@ -96,6 +96,14 @@
   transition: 0.4s;
 }
 
+.zadzwon {
+  color: white;
+}
+
+.zadzwon:hover {
+  color: white !important;
+}
+
 span {
   color: rgb(231, 111, 1);
 }

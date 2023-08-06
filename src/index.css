@@ -13,10 +13,13 @@ html {
 
 a {
   text-decoration: none;
+}
+
+a li {
   color: white;
 }
 
-a:hover {
+a li:hover {
   color: rgb(231, 111, 1);
 }
 
