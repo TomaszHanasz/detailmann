@@ -14,7 +14,8 @@
 
 .cennik__title {
   text-align: center;
-  margin: 40px auto;
+  margin: 0px auto;
+  margin-bottom: 40px;
 }
 
 .cennik__classic-prices {
@@ -26,6 +27,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .cennik__flex img {
