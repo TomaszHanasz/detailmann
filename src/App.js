@@ -5,6 +5,7 @@ import CennikPage from "./pages/Cennik/CennikPage";
 import Uslugi from "./pages/Usługi/Uslugi";
 import Contact from "./pages/Contact/Contact";
 import ScrollToTop from "./utilities/scrollToTop";
+import GaleriaPage from "./pages/Galeria/GaleriaPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cennik" element={<CennikPage />} />
         <Route path="/uslugi" element={<Uslugi />} />
+        <Route path="/galeria" element={<GaleriaPage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

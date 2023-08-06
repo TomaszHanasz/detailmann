@@ -1,18 +1,42 @@
 .img-gallery {
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  gap: 10px;
 }
 
-.img-gallery--image {
+.img-gallery__image {
   overflow: hidden;
   object-fit: cover;
+  width: 200px;
+  height: 200px;
 }
 
-.gallery-container {
-  padding-bottom: 50px;
-  margin: 40px auto !important;
-  max-width: 100% !important;
-  width: 60vw !important;
-  background-color: white;
+.image-gallery__title {
+  margin-top: 160px;
+}
+
+.gallery__back-button {
+  font-size: 1.5rem;
+  margin: 40px auto 40px auto;
+  min-width: 272px;
+  max-width: 272px;
+  height: 60px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(231, 111, 1);
+  display: block;
 }
 
 .modal__overlay {
@@ -42,10 +66,5 @@
 @media screen and (max-width: 1000px) {
   .img-gallery {
     max-width: 100%;
-  }
-
-  .gallery-container {
-    width: 100% !important;
-    height: 40vh !important;
   }
 }

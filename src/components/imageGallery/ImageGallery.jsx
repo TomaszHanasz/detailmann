@@ -1,23 +1,35 @@
 import * as React from "react";
 import { useState } from "react";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
 import { itemData } from "../../data/imagesGallery";
-import Box from "@mui/material/Box";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import "./imageGallery.style.css";
 
 export default function ImageGallery() {
   const [openModal, setOpenModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const onClickOpenModal = (imageData) => {
-    setSelectedImage(imageData);
+  const onClickOpenModal = (image) => {
+    setSelectedImage(image);
     setOpenModal(true);
   };
 
   const onClickCloseModal = () => {
     setOpenModal(false);
+  };
+
+  const pictures = (gallery) => {
+    const imageGallery = gallery.map((el, index) => (
+      <div key={index} alt={el.title}>
+        <img
+          src={el.img}
+          className="img-gallery__image"
+          alt={el.title}
+          onClick={() => onClickOpenModal(el)}
+        />
+      </div>
+    ));
+    return imageGallery;
   };
 
   return (
@@ -33,28 +45,11 @@ export default function ImageGallery() {
         </div>
       )}
       <Fade>
-        <Box
-          sx={{
-            width: 500,
-            height: 650,
-            overflowY: "scroll",
-            margin: "0 auto",
-          }}
-          className="gallery-container"
-        >
-          <ImageList variant="masonry" cols={3} gap={8} className="img-gallery">
-            {itemData.map((item) => (
-              <ImageListItem key={item.img}>
-                <img
-                  src={`${item.img}?w=248&fit=crop&auto=format`}
-                  alt={item.title}
-                  loading="lazy"
-                  onClick={() => onClickOpenModal(item)}
-                />
-              </ImageListItem>
-            ))}
-          </ImageList>
-        </Box>
+        <h2 className="image-gallery__title fancy"> Galeria</h2>
+        <div className="img-gallery">{pictures(itemData)}</div>
+        <Link to="/">
+          <button className="gallery__back-button">Powrót</button>
+        </Link>
       </Fade>
     </div>
   );

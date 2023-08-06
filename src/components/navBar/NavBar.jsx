@@ -22,7 +22,9 @@ const NavBar = () => {
         <Link to="/">
           <img src={logo} className="navbar__logo" alt="detailmann logo" />
         </Link>
-        <li>O nas</li>
+        <Link to="/galeria">
+          <li>Galeria</li>
+        </Link>
         <Link to="/contact">
           <li>Kontakt</li>
         </Link>
@@ -39,7 +41,9 @@ const NavBar = () => {
             <Link to="/uslugi">
               <li>Usługi</li>
             </Link>
-            <li>O nas</li>
+            <Link to="/galeria">
+              <li>Galeria</li>
+            </Link>
             <Link to="/contact">
               <li>Kontakt</li>
             </Link>
