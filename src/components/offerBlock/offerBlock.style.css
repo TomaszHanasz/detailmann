@@ -9,7 +9,7 @@
 
 .offer-block {
   flex: 1;
-  width: 350px;
+  width: 100%;
   position: relative;
   border-radius: 10px;
   overflow: hidden;

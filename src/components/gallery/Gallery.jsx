@@ -27,10 +27,11 @@ const Gallery = () => {
   return (
     <>
       <Fade>
-        <div className="gallery__container">
-          <h2 className="gallery__title fancy">
+        <div className="gallery__container" style={{ paddingBottom: 40 }}>
+          <h2 className="gallery__title fancy">Zdjęcia</h2>
+          <h3 style={{ textAlign: "center", textDecoration: "underline" }}>
             Świadczymy usługi na terenie Poznania i okolic 7 dni w tygodniu
-          </h2>
+          </h3>
           <br />
           <br />
           <Swiper
