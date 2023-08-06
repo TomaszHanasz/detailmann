@@ -122,4 +122,9 @@ span {
   .main__content h3 {
     font-size: 1rem;
   }
+
+  .main__social-icons img {
+    margin: 10px 10px;
+    width: 40px;
+  }
 }

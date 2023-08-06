@@ -29,9 +29,7 @@ const Gallery = () => {
       <Fade>
         <div className="gallery__container" style={{ paddingBottom: 40 }}>
           <h2 className="gallery__title fancy">Zdjęcia</h2>
-          <h3 style={{ textAlign: "center", textDecoration: "underline" }}>
-            Świadczymy usługi na terenie Poznania i okolic 7 dni w tygodniu
-          </h3>
+
           <br />
           <br />
           <Swiper
@@ -78,6 +76,15 @@ const Gallery = () => {
               <img className="swiper__img" src={image29} alt="zdjęcie" />
             </SwiperSlide>
           </Swiper>
+          <h3
+            style={{
+              textAlign: "center",
+              textDecoration: "underline",
+              marginTop: 40,
+            }}
+          >
+            Świadczymy usługi na terenie Poznania i okolic 7 dni w tygodniu
+          </h3>
         </div>
       </Fade>
     </>
