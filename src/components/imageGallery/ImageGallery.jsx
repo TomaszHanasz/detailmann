@@ -1,9 +1,11 @@
 import * as React from "react";
 import { useState } from "react";
 import { itemData } from "../../data/imagesGallery";
+import { carOne } from "../../data/carOne";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import "./imageGallery.style.css";
+import GalleryElement from "../galleryElement/GalleryElement";
 
 export default function ImageGallery() {
   const [openModal, setOpenModal] = useState(false);
@@ -46,7 +48,18 @@ export default function ImageGallery() {
       )}
       <Fade>
         <h2 className="image-gallery__title fancy"> Galeria</h2>
-        <div className="img-gallery">{pictures(itemData)}</div>
+        <GalleryElement
+          src={itemData}
+          key={itemData}
+          gallery={pictures}
+          title={itemData[0].title}
+        />
+        <GalleryElement
+          src={carOne}
+          key={carOne}
+          gallery={pictures}
+          title={carOne[0].title}
+        />
         <Link to="/">
           <button className="gallery__back-button">Powrót</button>
         </Link>
