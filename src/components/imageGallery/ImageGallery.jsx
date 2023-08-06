@@ -4,6 +4,10 @@ import { carOne } from "../../data/carOne";
 import { carTwo } from "../../data/carTwo";
 import { carThree } from "../../data/carThree";
 import { carFour } from "../../data/carFour";
+import { carFive } from "../../data/carFive";
+import { carSix } from "../../data/carSix";
+import { carSeven } from "../../data/carSeven";
+import { carEight } from "../../data/carEight";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import "./imageGallery.style.css";
@@ -57,6 +61,12 @@ export default function ImageGallery() {
           title={carOne[0].title}
         />
         <GalleryElement
+          src={carSix}
+          key={carSix}
+          gallery={pictures}
+          title={carSix[0].title}
+        />
+        <GalleryElement
           src={carTwo}
           key={carTwo}
           gallery={pictures}
@@ -73,6 +83,25 @@ export default function ImageGallery() {
           key={carFour}
           gallery={pictures}
           title={carFour[0].title}
+        />
+        <GalleryElement
+          src={carFive}
+          key={carFive}
+          gallery={pictures}
+          title={carFive[0].title}
+        />
+
+        <GalleryElement
+          src={carSeven}
+          key={carSeven}
+          gallery={pictures}
+          title={carSeven[0].title}
+        />
+        <GalleryElement
+          src={carEight}
+          key={carEight}
+          gallery={pictures}
+          title={carEight[0].title}
         />
         <Link to="/">
           <button className="gallery__back-button">Powrót</button>

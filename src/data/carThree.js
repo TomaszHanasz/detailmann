@@ -22,70 +22,70 @@ const carThree = [
   },
   {
     img: image27,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image28,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image29,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image30,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image31,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image32,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image33,
-    title: "BMW",
+    title: "Renken",
   },
   {
     img: image34,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image35,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image36,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image37,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image38,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image39,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image40,
-    title: "BMW",
+    title: "Renken",
   },
 
   {
     img: image41,
-    title: "BMW",
+    title: "Renken",
   },
 ];
 
