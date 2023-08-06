@@ -75,7 +75,12 @@ const Cennik = () => {
             </a>
           </button>
           <Link to="/">
-            <button className="cennik__button">Powrót</button>
+            <button
+              className="send-message__button"
+              style={{ marginBottom: 40 }}
+            >
+              Powrót
+            </button>
           </Link>
         </div>
       </div>
