@@ -1,5 +1,5 @@
 import React from "react";
-import videoBg from "./../../assets/hero2.mp4";
+import videoBg from "./../../assets/Hero233.mp4";
 import facebook from "./../../assets/facebook-svgrepo-com.svg";
 import instagram from "./../../assets/instagram-1-svgrepo-com.svg";
 import whatsapp from "../../assets/whatsapp-whats-app-svgrepo-com.svg";
