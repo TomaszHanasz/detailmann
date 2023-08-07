@@ -1,8 +1,8 @@
 import React from "react";
-import blokOne from "./../../assets/blok1.jpg";
-import blokTwo from "./../../assets/blok2.jpg";
-import blokThree from "./../../assets/blok3.jpg";
-import blokFour from "./../../assets/blok4.jpg";
+import blokOne from "./../../assets/blok1.webp";
+import blokTwo from "./../../assets/blok2.webp";
+import blokThree from "./../../assets/blok3.webp";
+import blokFour from "./../../assets/blok4.webp";
 import { Fade } from "react-awesome-reveal";
 import "./offerBlock.style.css";
 
