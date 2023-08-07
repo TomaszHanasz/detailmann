@@ -24,7 +24,7 @@
 .navbar-drawer__button {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 18px;
   height: 4rem;
   width: 4rem;
   font-size: 3rem;
@@ -60,13 +60,13 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 810px) {
   .navbar-drawer {
     display: none;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
   .navbar__options li {
     display: none;
   }
@@ -76,7 +76,7 @@
   }
 
   .navbar__logo {
-    width: 50%;
+    width: 40%;
   }
 
   .navbar {
