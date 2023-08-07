@@ -19,7 +19,7 @@ const NavBar = () => {
         <Link to="/uslugi">
           <li>Usługi</li>
         </Link>
-        <Link to="/">
+        <Link to="/" className="navbar__logo__container">
           <img src={logo} className="navbar__logo" alt="detailmann logo" />
         </Link>
         <Link to="/galeria">
