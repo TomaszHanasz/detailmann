@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cennikOne from "../../assets/cennik1.jpg";
-import cennikTwo from "../../assets/cennik2.jpg";
+import cennikOne from "../../assets/cennik1.webp";
+import cennikTwo from "../../assets/cennik2.webp";
 import { Fade } from "react-awesome-reveal";
 import "./cennik.style.css";
 
