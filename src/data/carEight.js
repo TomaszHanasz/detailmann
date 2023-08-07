@@ -1,12 +1,12 @@
-import image92 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (1).jpeg";
-import image93 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (2).jpeg";
-import image94 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (3).jpeg";
-import image95 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (4).jpeg";
-import image96 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (5).jpeg";
-import image97 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (6).jpeg";
-import image98 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (7).jpeg";
-import image99 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (8).jpeg";
-import image100 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM.jpeg";
+import image92 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (1).webp";
+import image93 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (2).webp";
+import image94 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (3).webp";
+import image95 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (4).webp";
+import image96 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (5).webp";
+import image97 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (6).webp";
+import image98 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (7).webp";
+import image99 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM (8).webp";
+import image100 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.21.58 PM.webp";
 
 const carEight = [
   {

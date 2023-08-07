@@ -1,11 +1,11 @@
-import image51 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (1).jpeg";
-import image52 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (2).jpeg";
-import image53 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (3).jpeg";
-import image54 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (4).jpeg";
-import image55 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (5).jpeg";
-import image56 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (6).jpeg";
-import image57 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (7).jpeg";
-import image58 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM.jpeg";
+import image51 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (1).webp";
+import image52 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (2).webp";
+import image53 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (3).webp";
+import image54 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (4).webp";
+import image55 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (5).webp";
+import image56 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (6).webp";
+import image57 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM (7).webp";
+import image58 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.19.17 PM.webp";
 
 const carFive = [
   {

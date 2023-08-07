@@ -1,14 +1,14 @@
-import image2 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (1).jpeg";
-import image3 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (10).jpeg";
-import image5 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (2).jpeg";
-import image6 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (3).jpeg";
-import image8 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM.jpeg";
-import image10 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (4).jpeg";
-import image11 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (5).jpeg";
-import image12 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (6).jpeg";
-import image13 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (7).jpeg";
-import image14 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (8).jpeg";
-import image15 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (9).jpeg";
+import image2 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (1).webp";
+import image3 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (10).webp";
+import image5 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (2).webp";
+import image6 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (3).webp";
+import image8 from "./../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM.webp";
+import image10 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (4).webp";
+import image11 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (5).webp";
+import image12 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (6).webp";
+import image13 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (7).webp";
+import image14 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (8).webp";
+import image15 from "../assets/gallery/WhatsApp Image 2023-08-01 at 1.16.51 PM (9).webp";
 
 const carOne = [
   {
