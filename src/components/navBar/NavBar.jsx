@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./../../assets/detailmann_logo_300dpi_3.png";
+import logo from "./../../assets/detailmann-logo-300dpi-3-64d0f4865f25c.webp";
 import { Link } from "react-router-dom";
 import "./navBar.style.css";
 
