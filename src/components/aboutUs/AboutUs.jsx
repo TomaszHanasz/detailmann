@@ -8,7 +8,7 @@ import "./aboutUs.style.css";
 const AboutUs = () => {
   return (
     <div className="about-us">
-      <h1 className="about-us__title fancy">O nas</h1>
+      <h2 className="about-us__title fancy">O nas</h2>
       <img className="about-us__logo" src={logo} alt="detail mann" />
       <div>
         <p className="about-us__text">
