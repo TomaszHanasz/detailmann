@@ -16,8 +16,8 @@ const NavBar = () => {
         <Link to="/cennik">
           <li>Cennik</li>
         </Link>
-        <Link to="/uslugi">
-          <li>Usługi</li>
+        <Link to="/onas">
+          <li>O nas</li>
         </Link>
         <Link to="/" className="navbar__logo__container">
           <img
@@ -43,8 +43,8 @@ const NavBar = () => {
             <Link to="/cennik">
               <li>Cennik</li>
             </Link>
-            <Link to="/uslugi">
-              <li>Usługi</li>
+            <Link to="/onas">
+              <li>O nas</li>
             </Link>
             <Link to="/galeria">
               <li>Galeria</li>
