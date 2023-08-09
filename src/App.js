@@ -2,7 +2,6 @@ import Home from "./pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import CennikPage from "./pages/Cennik/CennikPage";
-import Uslugi from "./pages/Usługi/Uslugi";
 import Onas from "./pages/Onas/Onas";
 import Contact from "./pages/Contact/Contact";
 import ScrollToTop from "./utilities/scrollToTop";

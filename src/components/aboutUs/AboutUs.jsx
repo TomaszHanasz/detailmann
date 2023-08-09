@@ -1,12 +1,15 @@
 import React from "react";
 import dyplomOne from "../../assets/dyplom1.webp";
 import dyplomTwo from "../../assets/dyplom2.webp";
+import logo from "../../assets/detailmann_logo_300dpi_2.webp";
+import { Link } from "react-router-dom";
 import "./aboutUs.style.css";
 
 const AboutUs = () => {
   return (
     <div className="about-us">
       <h1 className="about-us__title fancy">O nas</h1>
+      <img className="about-us__logo" src={logo} alt="detail mann" />
       <div>
         <p className="about-us__text">
           Już jako kilkuletni chłopak, w mojej pamięci wyryły się wspomnienia
@@ -57,6 +60,11 @@ const AboutUs = () => {
       <div className="about-us__img__container">
         <img className="about-us__img" src={dyplomOne} alt="certyfikat" />
         <img className="about-us__img" src={dyplomTwo} alt="certyfikat" />
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Link to="/">
+          <button className="send-message__button about-us__btn">Powrót</button>
+        </Link>
       </div>
     </div>
   );
