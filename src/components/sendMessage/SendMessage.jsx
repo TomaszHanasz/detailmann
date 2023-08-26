@@ -54,7 +54,12 @@ const SendMessage = () => {
             Dziękujemy!
           </h2>
         )}
-        <form onSubmit={onSubmitHandler} className="send-message__form">
+        <form
+          onSubmit={onSubmitHandler}
+          className="send-message__form"
+          action="https://formsubmit.co/sebastian.detailmann@gmail.com"
+          method="POST"
+        >
           <label>Imię</label>
           <input
             size="20"
