@@ -5,8 +5,18 @@ import instagram from "./../../assets/instagram-1-svgrepo-com.svg";
 import whatsapp from "../../assets/whatsapp-whats-app-svgrepo-com.svg";
 import { Link } from "react-router-dom";
 import "./main.style.css";
+import TagManager from "react-gtm-module";
 
 const Main = () => {
+  const handleButtonClick = () => {
+    TagManager.dataLayer({
+      dataLayer: {
+        event: "conversion",
+        send_to: "AW-11481525174/6iheCLek26gZELbX6OIq",
+      },
+    });
+  };
+
   return (
     <div className="main">
       <div className="main__overlay"></div>
@@ -46,7 +56,10 @@ const Main = () => {
                 Wyślij wiadomość
               </button>
             </Link>
-            <button className="main__contact-us__button">
+            <button
+              className="main__contact-us__button"
+              onClick={() => handleButtonClick()}
+            >
               <a className="zadzwon" href="tel:48508597076">
                 Zadzwoń
               </a>
